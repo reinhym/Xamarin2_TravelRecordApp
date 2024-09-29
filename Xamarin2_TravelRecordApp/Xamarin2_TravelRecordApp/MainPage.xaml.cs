@@ -24,6 +24,10 @@ namespace Xamarin2_TravelRecordApp
             {
                 return;
             }
+            else
+            {
+                Navigation.PushAsync(new HomePage());
+            }
         }
     }
 }
