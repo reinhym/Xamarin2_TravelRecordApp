@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Xamarin2_TravelRecordApp.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Color x:Key="buttonColor">#3F84E5</Color>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

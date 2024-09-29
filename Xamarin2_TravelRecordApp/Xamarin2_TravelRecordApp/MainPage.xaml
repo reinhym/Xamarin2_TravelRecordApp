@@ -13,7 +13,7 @@
                IsPassword="True"/>
         <Button x:Name="LoginButton" 
                 Text="Login"
-                BackgroundColor="#3F84E5"
+                BackgroundColor="{StaticResource buttonColor}"
                 TextColor="White"
                 Clicked="LoginButton_Clicked"
                 />
