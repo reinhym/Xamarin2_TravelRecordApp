@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Xamarin2_TravelRecordApp"
              x:Class="Xamarin2_TravelRecordApp.HomePage">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem x:Name="AddButton" 
+                     Text="Add" 
+                     Clicked="AddButton_Clicked"/>
+    </TabbedPage.ToolbarItems>
     <local:HistoryPage Title="History"/>
     <local:MapPage Title="Map"/>
     <local:ProfilePage Title="Profile"/>
