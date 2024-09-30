@@ -4,7 +4,12 @@
              x:Class="Xamarin2_TravelRecordApp.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="buttonColor">#3F84E5</Color>
+            <Color x:Key="blueColor">#3F84E5</Color>
+            <Color x:Key="whiteColor">#FFFFFF</Color>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource blueColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
