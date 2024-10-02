@@ -12,7 +12,7 @@ namespace Xamarin2_TravelRecordApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new Xamarin.Forms.NavigationPage(new LoginPage());
         }
 
         public App(string databaseLocation) : this()

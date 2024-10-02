@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Xamarin2_TravelRecordApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage : TabbedPage
+    public partial class NavigationPage : TabbedPage
     {
-        public HomePage()
+        public NavigationPage()
         {
             InitializeComponent();
         }

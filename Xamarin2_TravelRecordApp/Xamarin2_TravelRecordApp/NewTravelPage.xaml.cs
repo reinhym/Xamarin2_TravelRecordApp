@@ -16,5 +16,10 @@ namespace Xamarin2_TravelRecordApp
         {
             InitializeComponent();
         }
+
+        private void SaveButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

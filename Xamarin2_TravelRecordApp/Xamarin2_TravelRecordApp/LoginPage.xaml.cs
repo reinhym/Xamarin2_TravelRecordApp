@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace Xamarin2_TravelRecordApp
 {
-    public partial class MainPage : ContentPage
+    public partial class LoginPage : ContentPage
     {
-        public MainPage()
+        public LoginPage()
         {
             InitializeComponent();
         }
@@ -26,7 +26,7 @@ namespace Xamarin2_TravelRecordApp
             }
             else
             {
-                Navigation.PushAsync(new HomePage());
+                Navigation.PushAsync(new NavigationPage());
             }
         }
     }
