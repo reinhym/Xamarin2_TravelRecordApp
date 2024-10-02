@@ -23,7 +23,12 @@ namespace Xamarin2_TravelRecordApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+            string databaseFile = "travel_db.sqlite";
+            string folderPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "..", "Library");
+            string fullPath = System.IO.Path.Combine(folderPath, databaseFile);
+
+            LoadApplication(new App(fullPath));
 
             return base.FinishedLaunching(app, options);
         }
